@@ -25,6 +25,7 @@ struct SepedaHomeView: View {
         ProductModel(id:8, namaProduk:"sepeda8", fotoProduk:"sepeda2", hargaProduk:270000, lokasi:"surabaya", ratingCount:2,jumlahRating:56)
     ]
     @State var jumlahKeranjang:Int = 0
+   
     @ObservedObject var jumlahSepedaHomeGlobal = GlobalObjectSepeda()
     var body: some View {
         
@@ -45,8 +46,11 @@ struct SepedaHomeView: View {
                         Button(action:{print("okoko")}){
                             Image(systemName:"person.fill")
                         }
+//                        NavigationLink(destination : DetailViewSepeda(detailViewSepedaGlobal:jumlahSepedaHomeGlobal, detailViewSepedaBinding: $jumlahKeranjang)){
+                        KeranjangView(  jumlahKeranjangViewBinding: $jumlahKeranjang, jumlahKeranjangViewGlobal: jumlahSepedaHomeGlobal)
+//                        }
                         
-                        KeranjangView(jumlah: $jumlahKeranjang, jumlahKeranjangViewGlobal: jumlahSepedaHomeGlobal)
+                        
                        
                     }
             )
