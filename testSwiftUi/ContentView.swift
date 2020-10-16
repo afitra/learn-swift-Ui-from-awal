@@ -69,7 +69,10 @@ struct ContentView: View {
 //        }
 //        ================================================= HALAMAN SEPEDA
         
-        SepedaHomeView()
+//        SepedaHomeView()
+        
+//      ================================================= EnviromentLogin
+        EnviromentLoginView()
     }
 }
 

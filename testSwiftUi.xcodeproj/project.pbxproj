@@ -24,6 +24,8 @@
 		853558A22537330E000F456F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558A12537330E000F456F /* ProductModel.swift */; };
 		853558AA25374A35000F456F /* KeranjangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558A925374A35000F456F /* KeranjangView.swift */; };
 		853558B225374D11000F456F /* TambahKeranjang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558B125374D11000F456F /* TambahKeranjang.swift */; };
+		853B593425393009007CC2FC /* EnviromentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B593325393009007CC2FC /* EnviromentLoginView.swift */; };
+		853B593C253930D4007CC2FC /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B593B253930D4007CC2FC /* AuthUser.swift */; };
 		853C06CA252AB718007F584F /* FormSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C06C9252AB718007F584F /* FormSettingView.swift */; };
 		857B62872537BEF900AA8A89 /* GlobalObjectSepeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B62862537BEF900AA8A89 /* GlobalObjectSepeda.swift */; };
 		857B628F2537C5D600AA8A89 /* DetailViewSepeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B628E2537C5D600AA8A89 /* DetailViewSepeda.swift */; };
@@ -70,6 +72,8 @@
 		853558A12537330E000F456F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		853558A925374A35000F456F /* KeranjangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeranjangView.swift; sourceTree = "<group>"; };
 		853558B125374D11000F456F /* TambahKeranjang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahKeranjang.swift; sourceTree = "<group>"; };
+		853B593325393009007CC2FC /* EnviromentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentLoginView.swift; sourceTree = "<group>"; };
+		853B593B253930D4007CC2FC /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
 		853C06C9252AB718007F584F /* FormSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSettingView.swift; sourceTree = "<group>"; };
 		857B62862537BEF900AA8A89 /* GlobalObjectSepeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObjectSepeda.swift; sourceTree = "<group>"; };
 		857B628E2537C5D600AA8A89 /* DetailViewSepeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewSepeda.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 		8524A47C2529BEB900706C78 /* testSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				853B593225392FE3007CC2FC /* EnviromentLogin */,
 				857B62852537BECC00AA8A89 /* GlobalVariable */,
 				853558A0253732F7000F456F /* Model */,
 				8535588C25372128000F456F /* Sepeda */,
@@ -194,6 +199,15 @@
 				853558A12537330E000F456F /* ProductModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		853B593225392FE3007CC2FC /* EnviromentLogin */ = {
+			isa = PBXGroup;
+			children = (
+				853B593325393009007CC2FC /* EnviromentLoginView.swift */,
+				853B593B253930D4007CC2FC /* AuthUser.swift */,
+			);
+			path = EnviromentLogin;
 			sourceTree = "<group>";
 		};
 		857B62852537BECC00AA8A89 /* GlobalVariable */ = {
@@ -340,6 +354,7 @@
 				8535588E2537218B000F456F /* SepedaHomeView.swift in Sources */,
 				8524A4802529BEB900706C78 /* SceneDelegate.swift in Sources */,
 				853558B225374D11000F456F /* TambahKeranjang.swift in Sources */,
+				853B593C253930D4007CC2FC /* AuthUser.swift in Sources */,
 				8524A4822529BEB900706C78 /* ContentView.swift in Sources */,
 				8524A4852529BEB900706C78 /* testSwiftUi.xcdatamodeld in Sources */,
 				8513C9AB252AE085009F773F /* YoutubeHeader.swift in Sources */,
@@ -349,6 +364,7 @@
 				8513C9A2252ACE7D009F773F /* YoutubeHomeView.swift in Sources */,
 				857B628F2537C5D600AA8A89 /* DetailViewSepeda.swift in Sources */,
 				8513C9B0252AE09D009F773F /* YoutubeContentPart.swift in Sources */,
+				853B593425393009007CC2FC /* EnviromentLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
