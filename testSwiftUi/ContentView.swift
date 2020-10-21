@@ -72,7 +72,14 @@ struct ContentView: View {
 //        SepedaHomeView()
         
 //      ================================================= EnviromentLogin
-        EnviromentLoginView()
+//        EnviromentLoginView()
+        
+//      ================================================= Geometry Reader
+        GeometryReaderHome()
+ 
+        
+     
+           
     }
 }
 
