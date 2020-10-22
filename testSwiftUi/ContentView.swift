@@ -75,10 +75,11 @@ struct ContentView: View {
 //        EnviromentLoginView()
         
 //      ================================================= Geometry Reader
-        GeometryReaderHome()
+//        GeometryReaderHome()
  
+///      ================================================= tap Gesture
         
-     
+        TapGestureHome()
            
     }
 }
