@@ -25,6 +25,7 @@
 		853558AA25374A35000F456F /* KeranjangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558A925374A35000F456F /* KeranjangView.swift */; };
 		853558B225374D11000F456F /* TambahKeranjang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558B125374D11000F456F /* TambahKeranjang.swift */; };
 		853756D12543904000AEB29D /* DragGestureHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853756D02543904000AEB29D /* DragGestureHomeView.swift */; };
+		853756E5254396EC00AEB29D /* Kupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853756E4254396EC00AEB29D /* Kupon.swift */; };
 		853B593425393009007CC2FC /* EnviromentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B593325393009007CC2FC /* EnviromentLoginView.swift */; };
 		853B593C253930D4007CC2FC /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B593B253930D4007CC2FC /* AuthUser.swift */; };
 		853C06CA252AB718007F584F /* FormSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C06C9252AB718007F584F /* FormSettingView.swift */; };
@@ -79,6 +80,7 @@
 		853558A925374A35000F456F /* KeranjangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeranjangView.swift; sourceTree = "<group>"; };
 		853558B125374D11000F456F /* TambahKeranjang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahKeranjang.swift; sourceTree = "<group>"; };
 		853756D02543904000AEB29D /* DragGestureHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHomeView.swift; sourceTree = "<group>"; };
+		853756E4254396EC00AEB29D /* Kupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kupon.swift; sourceTree = "<group>"; };
 		853B593325393009007CC2FC /* EnviromentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentLoginView.swift; sourceTree = "<group>"; };
 		853B593B253930D4007CC2FC /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
 		853C06C9252AB718007F584F /* FormSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSettingView.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				853756D02543904000AEB29D /* DragGestureHomeView.swift */,
+				853756E4254396EC00AEB29D /* Kupon.swift */,
 			);
 			path = DragGesture;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				853756D12543904000AEB29D /* DragGestureHomeView.swift in Sources */,
 				853B593C253930D4007CC2FC /* AuthUser.swift in Sources */,
 				8524A4822529BEB900706C78 /* ContentView.swift in Sources */,
+				853756E5254396EC00AEB29D /* Kupon.swift in Sources */,
 				8524A4852529BEB900706C78 /* testSwiftUi.xcdatamodeld in Sources */,
 				8513C9AB252AE085009F773F /* YoutubeHeader.swift in Sources */,
 				857B62872537BEF900AA8A89 /* GlobalObjectSepeda.swift in Sources */,
