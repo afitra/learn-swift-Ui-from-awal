@@ -77,10 +77,11 @@ struct ContentView: View {
 //      ================================================= Geometry Reader
 //        GeometryReaderHome()
  
-///      ================================================= tap Gesture
+///      ================================================= Tap Gesture
         
-        TapGestureHome()
-           
+//        TapGestureHome()
+///      ================================================= Drag Gesture
+        DragGestureHomeView()
     }
 }
 

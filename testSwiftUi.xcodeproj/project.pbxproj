@@ -24,6 +24,7 @@
 		853558A22537330E000F456F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558A12537330E000F456F /* ProductModel.swift */; };
 		853558AA25374A35000F456F /* KeranjangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558A925374A35000F456F /* KeranjangView.swift */; };
 		853558B225374D11000F456F /* TambahKeranjang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558B125374D11000F456F /* TambahKeranjang.swift */; };
+		853756D12543904000AEB29D /* DragGestureHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853756D02543904000AEB29D /* DragGestureHomeView.swift */; };
 		853B593425393009007CC2FC /* EnviromentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B593325393009007CC2FC /* EnviromentLoginView.swift */; };
 		853B593C253930D4007CC2FC /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B593B253930D4007CC2FC /* AuthUser.swift */; };
 		853C06CA252AB718007F584F /* FormSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C06C9252AB718007F584F /* FormSettingView.swift */; };
@@ -77,6 +78,7 @@
 		853558A12537330E000F456F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		853558A925374A35000F456F /* KeranjangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeranjangView.swift; sourceTree = "<group>"; };
 		853558B125374D11000F456F /* TambahKeranjang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahKeranjang.swift; sourceTree = "<group>"; };
+		853756D02543904000AEB29D /* DragGestureHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHomeView.swift; sourceTree = "<group>"; };
 		853B593325393009007CC2FC /* EnviromentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentLoginView.swift; sourceTree = "<group>"; };
 		853B593B253930D4007CC2FC /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
 		853C06C9252AB718007F584F /* FormSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSettingView.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		8524A47C2529BEB900706C78 /* testSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				853756CF2543901900AEB29D /* DragGesture */,
 				8548A2842540005D004463EC /* TapGesture */,
 				85EA811A253E6DDB00BF28D0 /* GeometryReader */,
 				853B593225392FE3007CC2FC /* EnviromentLogin */,
@@ -211,6 +214,14 @@
 				853558A12537330E000F456F /* ProductModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		853756CF2543901900AEB29D /* DragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				853756D02543904000AEB29D /* DragGestureHomeView.swift */,
+			);
+			path = DragGesture;
 			sourceTree = "<group>";
 		};
 		853B593225392FE3007CC2FC /* EnviromentLogin */ = {
@@ -387,6 +398,7 @@
 				853558B225374D11000F456F /* TambahKeranjang.swift in Sources */,
 				8548A280253FFB90004463EC /* KolomGeomatryReader.swift in Sources */,
 				85EA810D253E62A300BF28D0 /* EnviromentHome.swift in Sources */,
+				853756D12543904000AEB29D /* DragGestureHomeView.swift in Sources */,
 				853B593C253930D4007CC2FC /* AuthUser.swift in Sources */,
 				8524A4822529BEB900706C78 /* ContentView.swift in Sources */,
 				8524A4852529BEB900706C78 /* testSwiftUi.xcdatamodeld in Sources */,
