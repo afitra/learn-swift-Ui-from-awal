@@ -29,7 +29,7 @@ struct LoginView :View{
 }
 
 struct ContentView: View {
-    
+    @State private var toShow = false
     var body: some View {
 //        ================================================= HALAMAN LOGIN
 //        LoginView()
@@ -81,7 +81,8 @@ struct ContentView: View {
         
 //        TapGestureHome()
 ///      ================================================= Drag Gesture
-        DragGestureHomeView()
+        DragGestureHomeView(showMenu:  $toShow)  // $toShow adalah default aja sebagai false
+        
     }
 }
 

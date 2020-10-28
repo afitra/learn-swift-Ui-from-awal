@@ -9,9 +9,23 @@ import Foundation
 import SwiftUI
 
 struct DragGestureHomeView: View {
-    @Binding var showMenu : Int
+    @Binding var showMenu : Bool
+    @State private var offset = CGSize.zero
+ 
     var body :  some  View {
-        ZStack{
+    
+        let myCostomDrag = DragGesture()
+            .onChanged{
+                gesture in
+                self.offset = gesture.translation // translation  == mengikuti gerakan pencetan layar
+            }
+            .onEnded{
+                value in
+                self.offset = CGSize.zero // jadi kosong lagi
+//                self.offset = value.translation
+                self.showMenu = false
+            }
+        return ZStack{
             Color.orange
                 .edgesIgnoringSafeArea(.all)
             VStack{
@@ -20,7 +34,9 @@ struct DragGestureHomeView: View {
                     .frame(width: 300, height: 300, alignment:  .center)
                     .clipShape(Circle())
 //                    .cornerRadius(20)
-                Button(action:{}){
+                Button(action:{
+                    self.showMenu = !self.showMenu
+                }){
                     Text("Promo merdeka")
                         .padding()
                         .background(Color.green)
@@ -31,16 +47,21 @@ struct DragGestureHomeView: View {
                 
             }
             if (self.showMenu == true){
-                Kupon(showMenu: showMenu = true)
+                Kupon(showMenu:  self.$showMenu)
+                    .transition(.move(edge: .bottom))
+                    .animation(.default)
+                    .offset(y:self.offset.height)
+                    .gesture(myCostomDrag)
+                
             }
         }
     }
 }
 
 
-
-struct DragGestureHomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        DragGestureHomeView()
-    }
-}
+//
+//struct DragGestureHomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        DragGestureHomeView()
+//    }
+//}

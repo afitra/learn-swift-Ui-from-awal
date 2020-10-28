@@ -9,7 +9,8 @@ import Foundation
 import SwiftUI
 
 struct Kupon :View{
-    @Binding var showMenu:Int
+    @Binding var showMenu:Bool
+    
     var body : some View{
         VStack{
             Text("Selamat anda mendapatkan klepon sebanyak 500 biji")
@@ -18,7 +19,7 @@ struct Kupon :View{
                 .foregroundColor(.white)
             Button(action : {
                 withAnimation{
-                    showMenu = true
+                    self.showMenu = true
                 }
             }){
                 Text("Promo Merdeka")
