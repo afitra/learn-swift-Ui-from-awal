@@ -31,6 +31,7 @@
 		853C06CA252AB718007F584F /* FormSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C06C9252AB718007F584F /* FormSettingView.swift */; };
 		8548A280253FFB90004463EC /* KolomGeomatryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548A27F253FFB90004463EC /* KolomGeomatryReader.swift */; };
 		8548A286254000F7004463EC /* TapGestureHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548A285254000F7004463EC /* TapGestureHome.swift */; };
+		8578590F25492149006593F7 /* DrawShapeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578590E25492149006593F7 /* DrawShapeHomeView.swift */; };
 		857B62872537BEF900AA8A89 /* GlobalObjectSepeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B62862537BEF900AA8A89 /* GlobalObjectSepeda.swift */; };
 		857B628F2537C5D600AA8A89 /* DetailViewSepeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B628E2537C5D600AA8A89 /* DetailViewSepeda.swift */; };
 		85EA8108253E629300BF28D0 /* EnviromentLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA8107253E629300BF28D0 /* EnviromentLogin.swift */; };
@@ -86,6 +87,7 @@
 		853C06C9252AB718007F584F /* FormSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSettingView.swift; sourceTree = "<group>"; };
 		8548A27F253FFB90004463EC /* KolomGeomatryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolomGeomatryReader.swift; sourceTree = "<group>"; };
 		8548A285254000F7004463EC /* TapGestureHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureHome.swift; sourceTree = "<group>"; };
+		8578590E25492149006593F7 /* DrawShapeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShapeHomeView.swift; sourceTree = "<group>"; };
 		857B62862537BEF900AA8A89 /* GlobalObjectSepeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObjectSepeda.swift; sourceTree = "<group>"; };
 		857B628E2537C5D600AA8A89 /* DetailViewSepeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewSepeda.swift; sourceTree = "<group>"; };
 		85EA8107253E629300BF28D0 /* EnviromentLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentLogin.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		8524A47C2529BEB900706C78 /* testSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				8578590D25492126006593F7 /* DrawShape */,
 				853756CF2543901900AEB29D /* DragGesture */,
 				8548A2842540005D004463EC /* TapGesture */,
 				85EA811A253E6DDB00BF28D0 /* GeometryReader */,
@@ -244,6 +247,14 @@
 				8548A285254000F7004463EC /* TapGestureHome.swift */,
 			);
 			path = TapGesture;
+			sourceTree = "<group>";
+		};
+		8578590D25492126006593F7 /* DrawShape */ = {
+			isa = PBXGroup;
+			children = (
+				8578590E25492149006593F7 /* DrawShapeHomeView.swift */,
+			);
+			path = DrawShape;
 			sourceTree = "<group>";
 		};
 		857B62852537BECC00AA8A89 /* GlobalVariable */ = {
@@ -400,6 +411,7 @@
 				8524A4802529BEB900706C78 /* SceneDelegate.swift in Sources */,
 				853558B225374D11000F456F /* TambahKeranjang.swift in Sources */,
 				8548A280253FFB90004463EC /* KolomGeomatryReader.swift in Sources */,
+				8578590F25492149006593F7 /* DrawShapeHomeView.swift in Sources */,
 				85EA810D253E62A300BF28D0 /* EnviromentHome.swift in Sources */,
 				853756D12543904000AEB29D /* DragGestureHomeView.swift in Sources */,
 				853B593C253930D4007CC2FC /* AuthUser.swift in Sources */,

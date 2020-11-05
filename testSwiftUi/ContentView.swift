@@ -81,8 +81,12 @@ struct ContentView: View {
         
 //        TapGestureHome()
 ///      ================================================= Drag Gesture
-        DragGestureHomeView(showMenu:  $toShow)  // $toShow adalah default aja sebagai false
         
+//        DragGestureHomeView(showMenu:  $toShow)  // $toShow adalah default aja sebagai false
+        
+///      ================================================= DraawShape
+        
+        DrawShapeHomeView()
     }
 }
 
