@@ -86,7 +86,10 @@ struct ContentView: View {
         
 ///      ================================================= DraawShape
         
-        DrawShapeHomeView()
+//        DrawShapeHomeView()
+        
+///      ================================================= Fetch data from json
+        FetchJsonDataHomeView()
     }
 }
 

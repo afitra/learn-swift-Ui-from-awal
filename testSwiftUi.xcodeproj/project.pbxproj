@@ -19,6 +19,9 @@
 		8524A48D2529BEBA00706C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8524A48B2529BEBA00706C78 /* LaunchScreen.storyboard */; };
 		8524A4982529BEBB00706C78 /* testSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524A4972529BEBB00706C78 /* testSwiftUiTests.swift */; };
 		8524A4A32529BEBB00706C78 /* testSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524A4A22529BEBB00706C78 /* testSwiftUiUITests.swift */; };
+		8526BBD22554BAB700D58558 /* FetchJsonDataHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526BBD12554BAB700D58558 /* FetchJsonDataHomeView.swift */; };
+		8526BBDC2554CD7A00D58558 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526BBDB2554CD7A00D58558 /* Post.swift */; };
+		8526BBE12554CE3E00D58558 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526BBE02554CE3E00D58558 /* ApiServices.swift */; };
 		8535588E2537218B000F456F /* SepedaHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535588D2537218B000F456F /* SepedaHomeView.swift */; };
 		853558962537255A000F456F /* ProductSepeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558952537255A000F456F /* ProductSepeda.swift */; };
 		853558A22537330E000F456F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853558A12537330E000F456F /* ProductModel.swift */; };
@@ -75,6 +78,9 @@
 		8524A49E2529BEBB00706C78 /* testSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8524A4A22529BEBB00706C78 /* testSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSwiftUiUITests.swift; sourceTree = "<group>"; };
 		8524A4A42529BEBB00706C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8526BBD12554BAB700D58558 /* FetchJsonDataHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchJsonDataHomeView.swift; sourceTree = "<group>"; };
+		8526BBDB2554CD7A00D58558 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8526BBE02554CE3E00D58558 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
 		8535588D2537218B000F456F /* SepedaHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepedaHomeView.swift; sourceTree = "<group>"; };
 		853558952537255A000F456F /* ProductSepeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSepeda.swift; sourceTree = "<group>"; };
 		853558A12537330E000F456F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 		8524A47C2529BEB900706C78 /* testSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				8526BBD02554BA8D00D58558 /* FetchJsonData */,
 				8578590D25492126006593F7 /* DrawShape */,
 				853756CF2543901900AEB29D /* DragGesture */,
 				8548A2842540005D004463EC /* TapGesture */,
@@ -199,6 +206,32 @@
 				8524A4A42529BEBB00706C78 /* Info.plist */,
 			);
 			path = testSwiftUiUITests;
+			sourceTree = "<group>";
+		};
+		8526BBD02554BA8D00D58558 /* FetchJsonData */ = {
+			isa = PBXGroup;
+			children = (
+				8526BBDA2554CD5600D58558 /* WebService */,
+				8526BBD92554CD4800D58558 /* Model */,
+				8526BBD12554BAB700D58558 /* FetchJsonDataHomeView.swift */,
+			);
+			path = FetchJsonData;
+			sourceTree = "<group>";
+		};
+		8526BBD92554CD4800D58558 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8526BBDB2554CD7A00D58558 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8526BBDA2554CD5600D58558 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				8526BBE02554CE3E00D58558 /* ApiServices.swift */,
+			);
+			path = WebService;
 			sourceTree = "<group>";
 		};
 		8535588C25372128000F456F /* Sepeda */ = {
@@ -422,11 +455,14 @@
 				857B62872537BEF900AA8A89 /* GlobalObjectSepeda.swift in Sources */,
 				8548A286254000F7004463EC /* TapGestureHome.swift in Sources */,
 				853558A22537330E000F456F /* ProductModel.swift in Sources */,
+				8526BBD22554BAB700D58558 /* FetchJsonDataHomeView.swift in Sources */,
 				853558962537255A000F456F /* ProductSepeda.swift in Sources */,
 				8513C9A2252ACE7D009F773F /* YoutubeHomeView.swift in Sources */,
 				85EA811C253E6E1800BF28D0 /* GeometryReaderHome.swift in Sources */,
+				8526BBE12554CE3E00D58558 /* ApiServices.swift in Sources */,
 				85EA8108253E629300BF28D0 /* EnviromentLogin.swift in Sources */,
 				857B628F2537C5D600AA8A89 /* DetailViewSepeda.swift in Sources */,
+				8526BBDC2554CD7A00D58558 /* Post.swift in Sources */,
 				8513C9B0252AE09D009F773F /* YoutubeContentPart.swift in Sources */,
 				853B593425393009007CC2FC /* EnviromentLoginView.swift in Sources */,
 			);
